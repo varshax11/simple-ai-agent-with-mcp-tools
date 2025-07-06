@@ -12,7 +12,7 @@ load_dotenv()
 model = ChatOpenAI(
     model="gpt-4o-mini",
     temperature=0.5,
-    openai_api_key = "sk-abcdefabcdefabcdefabcdefabcdefabcdef12"
+    openai_api_key = "  "
 )
 
 server_params = StdioServerParameters(
